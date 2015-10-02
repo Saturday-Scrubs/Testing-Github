@@ -4,6 +4,8 @@ public class HelloArgs{
       for(String s : args){
         System.out.println(s);
       }
+    }else{
+      System.out.println("Hello World");
     }
   }
 }
